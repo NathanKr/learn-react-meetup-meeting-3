@@ -17,7 +17,7 @@ const PokemonsCSR = () => {
   }
 
   const elems = pokemons.map((it, i) => (
-    <div>
+    <div key={i}>
       <span>{it.name}</span>
       <br />
       <Image src={`/${it.image}`} width={100} height={100} alt='pokemon'/>

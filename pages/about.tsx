@@ -5,7 +5,9 @@ const About = () => {
   return (
     <div>
       <Link href="/">Home</Link>
-      <Link href="/pokemons">Pokemons</Link>
+      <br />
+      <Link href="/pokemons-csr">Pokemons</Link>
+      <br />
       <h1>About Page</h1>
     </div>
   );

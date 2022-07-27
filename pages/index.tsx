@@ -6,16 +6,19 @@ const Home: NextPage = () => {
   return (
     <div>
       <Link href="/about">About</Link>
-      <Link href="/pokemons">Pokemons</Link>
+      <br />
+      <Link href="/pokemons-csr">Pokemons</Link>
+      <br />
       <h1>
         Home Page
-        <Image
+        
+      </h1>
+      <Image
           width="800"
           height="800"
           src="/images/home-domenico-loia-hGV2TfOh0ns-unsplash.jpg"
           alt="pic"
         />
-      </h1>
     </div>
   );
 };

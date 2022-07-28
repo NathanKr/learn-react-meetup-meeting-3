@@ -1,14 +1,14 @@
 import Link from "next/link";
 import React from "react";
 
-const About = () => {
+const Pokemons = () => {
   return (
     <div>
+      <Link href="/about">About</Link>
       <Link href="/">Home</Link>
-      <Link href="/pokemons">Pokemons</Link>
-      <h1>About Page</h1>
+      <h1>Pokemons page</h1>
     </div>
   );
 };
 
-export default About;
+export default Pokemons;
